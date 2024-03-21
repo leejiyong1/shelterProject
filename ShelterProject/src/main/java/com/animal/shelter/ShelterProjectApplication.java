@@ -8,6 +8,7 @@ public class ShelterProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ShelterProjectApplication.class, args);
+		
 	}
 
 }
