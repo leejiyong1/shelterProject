@@ -32,7 +32,5 @@ public class AnimalService {
         URI uri = new URI(uriString);
         System.out.println("uri:" + uri);
         return restTemplate.getForObject(uri, String.class);
-        
-        
     }
 }
